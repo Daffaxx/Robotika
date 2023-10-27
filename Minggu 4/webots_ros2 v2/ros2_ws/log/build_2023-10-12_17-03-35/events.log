@@ -1,0 +1,176 @@
+[0.000000] (-) TimerEvent: {}
+[0.003180] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.003459] (webots_ros2_importer) JobQueued: {'identifier': 'webots_ros2_importer', 'dependencies': OrderedDict()}
+[0.003506] (webots_ros2_msgs) JobQueued: {'identifier': 'webots_ros2_msgs', 'dependencies': OrderedDict()}
+[0.003538] (webots_ros2_driver) JobQueued: {'identifier': 'webots_ros2_driver', 'dependencies': OrderedDict([('webots_ros2_importer', '/home/dafx/ros2_ws/install/webots_ros2_importer'), ('webots_ros2_msgs', '/home/dafx/ros2_ws/install/webots_ros2_msgs')])}
+[0.003577] (webots_ros2_control) JobQueued: {'identifier': 'webots_ros2_control', 'dependencies': OrderedDict([('webots_ros2_importer', '/home/dafx/ros2_ws/install/webots_ros2_importer'), ('webots_ros2_msgs', '/home/dafx/ros2_ws/install/webots_ros2_msgs'), ('webots_ros2_driver', '/home/dafx/ros2_ws/install/webots_ros2_driver')])}
+[0.007032] (webots_ros2_mavic) JobQueued: {'identifier': 'webots_ros2_mavic', 'dependencies': OrderedDict([('webots_ros2_importer', '/home/dafx/ros2_ws/install/webots_ros2_importer'), ('webots_ros2_msgs', '/home/dafx/ros2_ws/install/webots_ros2_msgs'), ('webots_ros2_driver', '/home/dafx/ros2_ws/install/webots_ros2_driver')])}
+[0.007143] (webots_ros2_tesla) JobQueued: {'identifier': 'webots_ros2_tesla', 'dependencies': OrderedDict([('webots_ros2_importer', '/home/dafx/ros2_ws/install/webots_ros2_importer'), ('webots_ros2_msgs', '/home/dafx/ros2_ws/install/webots_ros2_msgs'), ('webots_ros2_driver', '/home/dafx/ros2_ws/install/webots_ros2_driver')])}
+[0.007196] (webots_ros2_epuck) JobQueued: {'identifier': 'webots_ros2_epuck', 'dependencies': OrderedDict([('webots_ros2_importer', '/home/dafx/ros2_ws/install/webots_ros2_importer'), ('webots_ros2_msgs', '/home/dafx/ros2_ws/install/webots_ros2_msgs'), ('webots_ros2_driver', '/home/dafx/ros2_ws/install/webots_ros2_driver'), ('webots_ros2_control', '/home/dafx/ros2_ws/install/webots_ros2_control')])}
+[0.007566] (webots_ros2_tiago) JobQueued: {'identifier': 'webots_ros2_tiago', 'dependencies': OrderedDict([('webots_ros2_importer', '/home/dafx/ros2_ws/install/webots_ros2_importer'), ('webots_ros2_msgs', '/home/dafx/ros2_ws/install/webots_ros2_msgs'), ('webots_ros2_driver', '/home/dafx/ros2_ws/install/webots_ros2_driver'), ('webots_ros2_control', '/home/dafx/ros2_ws/install/webots_ros2_control')])}
+[0.007630] (webots_ros2_turtlebot) JobQueued: {'identifier': 'webots_ros2_turtlebot', 'dependencies': OrderedDict([('webots_ros2_importer', '/home/dafx/ros2_ws/install/webots_ros2_importer'), ('webots_ros2_msgs', '/home/dafx/ros2_ws/install/webots_ros2_msgs'), ('webots_ros2_driver', '/home/dafx/ros2_ws/install/webots_ros2_driver'), ('webots_ros2_control', '/home/dafx/ros2_ws/install/webots_ros2_control')])}
+[0.007671] (webots_ros2_universal_robot) JobQueued: {'identifier': 'webots_ros2_universal_robot', 'dependencies': OrderedDict([('webots_ros2_importer', '/home/dafx/ros2_ws/install/webots_ros2_importer'), ('webots_ros2_msgs', '/home/dafx/ros2_ws/install/webots_ros2_msgs'), ('webots_ros2_driver', '/home/dafx/ros2_ws/install/webots_ros2_driver'), ('webots_ros2_control', '/home/dafx/ros2_ws/install/webots_ros2_control')])}
+[0.007705] (webots_ros2_tests) JobQueued: {'identifier': 'webots_ros2_tests', 'dependencies': OrderedDict([('webots_ros2_importer', '/home/dafx/ros2_ws/install/webots_ros2_importer'), ('webots_ros2_msgs', '/home/dafx/ros2_ws/install/webots_ros2_msgs'), ('webots_ros2_driver', '/home/dafx/ros2_ws/install/webots_ros2_driver'), ('webots_ros2_control', '/home/dafx/ros2_ws/install/webots_ros2_control'), ('webots_ros2_mavic', '/home/dafx/ros2_ws/install/webots_ros2_mavic'), ('webots_ros2_tesla', '/home/dafx/ros2_ws/install/webots_ros2_tesla'), ('webots_ros2_epuck', '/home/dafx/ros2_ws/install/webots_ros2_epuck'), ('webots_ros2_tiago', '/home/dafx/ros2_ws/install/webots_ros2_tiago'), ('webots_ros2_turtlebot', '/home/dafx/ros2_ws/install/webots_ros2_turtlebot'), ('webots_ros2_universal_robot', '/home/dafx/ros2_ws/install/webots_ros2_universal_robot')])}
+[0.007790] (webots_ros2) JobQueued: {'identifier': 'webots_ros2', 'dependencies': OrderedDict([('webots_ros2_importer', '/home/dafx/ros2_ws/install/webots_ros2_importer'), ('webots_ros2_msgs', '/home/dafx/ros2_ws/install/webots_ros2_msgs'), ('webots_ros2_driver', '/home/dafx/ros2_ws/install/webots_ros2_driver'), ('webots_ros2_control', '/home/dafx/ros2_ws/install/webots_ros2_control'), ('webots_ros2_mavic', '/home/dafx/ros2_ws/install/webots_ros2_mavic'), ('webots_ros2_tesla', '/home/dafx/ros2_ws/install/webots_ros2_tesla'), ('webots_ros2_epuck', '/home/dafx/ros2_ws/install/webots_ros2_epuck'), ('webots_ros2_tiago', '/home/dafx/ros2_ws/install/webots_ros2_tiago'), ('webots_ros2_turtlebot', '/home/dafx/ros2_ws/install/webots_ros2_turtlebot'), ('webots_ros2_universal_robot', '/home/dafx/ros2_ws/install/webots_ros2_universal_robot'), ('webots_ros2_tests', '/home/dafx/ros2_ws/install/webots_ros2_tests')])}
+[0.007846] (webots_ros2_importer) JobStarted: {'identifier': 'webots_ros2_importer'}
+[0.100276] (-) TimerEvent: {}
+[0.202392] (-) TimerEvent: {}
+[0.319338] (-) TimerEvent: {}
+[0.573083] (-) TimerEvent: {}
+[0.592122] (webots_ros2_msgs) JobStarted: {'identifier': 'webots_ros2_msgs'}
+[0.674002] (-) TimerEvent: {}
+[0.921862] (-) TimerEvent: {}
+[1.023391] (-) TimerEvent: {}
+[1.321637] (-) TimerEvent: {}
+[1.424536] (-) TimerEvent: {}
+[1.823623] (-) TimerEvent: {}
+[1.848415] (webots_ros2_msgs) JobProgress: {'identifier': 'webots_ros2_msgs', 'progress': 'cmake'}
+[1.850921] (webots_ros2_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/dafx/ros2_ws/src/webots_ros2/webots_ros2_msgs', '-DCMAKE_INSTALL_PREFIX=/home/dafx/ros2_ws/install/webots_ros2_msgs'], 'cwd': '/home/dafx/ros2_ws/build/webots_ros2_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dafx'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1662'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/dafx'), ('OLDPWD', '/home/dafx/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1448'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dafx/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dafx'), ('JOURNAL_STREAM', '8:35416'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dafx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dafx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/dafx-VirtualBox:@/tmp/.ICE-unix/1708,unix/dafx-VirtualBox:/tmp/.ICE-unix/1708'), ('INVOCATION_ID', '3a3330979a694a8798081713f416387b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1f078e17_cadd_4a6d_a9f3_f55f418e2342'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dafx/ros2_ws/install/my_robot_controller:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dafx/ros2_ws/build/webots_ros2_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dafx/ros2_ws/build/my_robot_controller:/home/dafx/ros2_ws/install/my_robot_controller/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/dafx/ros2_ws/install/my_robot_controller:/opt/ros/foxy')]), 'shell': False}
+[1.927420] (-) TimerEvent: {}
+[2.317891] (-) TimerEvent: {}
+[2.422716] (-) TimerEvent: {}
+[2.524470] (-) TimerEvent: {}
+[2.627514] (-) TimerEvent: {}
+[2.730106] (-) TimerEvent: {}
+[2.831272] (-) TimerEvent: {}
+[2.934099] (-) TimerEvent: {}
+[3.036055] (-) TimerEvent: {}
+[3.052306] (webots_ros2_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[3.138609] (-) TimerEvent: {}
+[3.240720] (-) TimerEvent: {}
+[3.344914] (-) TimerEvent: {}
+[3.436199] (webots_ros2_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.445459] (-) TimerEvent: {}
+[3.488966] (webots_ros2_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.548490] (-) TimerEvent: {}
+[3.559508] (webots_ros2_importer) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/webots_ros2_importer', 'build', '--build-base', '/home/dafx/ros2_ws/build/webots_ros2_importer/build', 'install', '--record', '/home/dafx/ros2_ws/build/webots_ros2_importer/install.log', '--single-version-externally-managed'], 'cwd': '/home/dafx/ros2_ws/src/webots_ros2/webots_ros2_importer', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dafx', 'LC_TIME': 'id_ID.UTF-8', 'SSH_AGENT_PID': '1662', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/dafx', 'OLDPWD': '/home/dafx/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'id_ID.UTF-8', 'MANAGERPID': '1448', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dafx/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'dafx', 'JOURNAL_STREAM': '8:35416', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dafx', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/dafx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/dafx-VirtualBox:@/tmp/.ICE-unix/1708,unix/dafx-VirtualBox:/tmp/.ICE-unix/1708', 'INVOCATION_ID': '3a3330979a694a8798081713f416387b', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'id_ID.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1f078e17_cadd_4a6d_a9f3_f55f418e2342', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'id_ID.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.85', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dafx/ros2_ws/install/my_robot_controller:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dafx/ros2_ws/build/webots_ros2_importer', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dafx/ros2_ws/build/webots_ros2_importer/prefix_override:/home/dafx/ros2_ws/install/webots_ros2_importer/lib/python3.8/site-packages:/home/dafx/ros2_ws/build/my_robot_controller:/home/dafx/ros2_ws/install/my_robot_controller/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[3.654341] (-) TimerEvent: {}
+[3.668349] (webots_ros2_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.680232] (webots_ros2_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.755373] (-) TimerEvent: {}
+[3.842867] (webots_ros2_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.855616] (-) TimerEvent: {}
+[3.870132] (webots_ros2_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.873293] (webots_ros2_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.888145] (webots_ros2_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.963233] (-) TimerEvent: {}
+[4.065042] (-) TimerEvent: {}
+[4.068427] (webots_ros2_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.071100] (webots_ros2_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.184430] (webots_ros2_importer) StdoutLine: {'line': b'running egg_info\n'}
+[4.185795] (-) TimerEvent: {}
+[4.195865] (webots_ros2_importer) StdoutLine: {'line': b'creating ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info\n'}
+[4.196568] (webots_ros2_importer) StdoutLine: {'line': b'writing ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/PKG-INFO\n'}
+[4.197979] (webots_ros2_importer) StdoutLine: {'line': b'writing dependency_links to ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/dependency_links.txt\n'}
+[4.198127] (webots_ros2_importer) StdoutLine: {'line': b'writing entry points to ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/entry_points.txt\n'}
+[4.198251] (webots_ros2_importer) StdoutLine: {'line': b'writing requirements to ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/requires.txt\n'}
+[4.198357] (webots_ros2_importer) StdoutLine: {'line': b'writing top-level names to ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/top_level.txt\n'}
+[4.212857] (webots_ros2_importer) StdoutLine: {'line': b"writing manifest file '../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/SOURCES.txt'\n"}
+[4.259236] (webots_ros2_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.285009] (webots_ros2_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.286156] (-) TimerEvent: {}
+[4.288307] (webots_ros2_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.305135] (webots_ros2_importer) StderrLine: {'line': b"error: package directory 'webots_ros2_importer/urdf2webots/urdf2webots' does not exist\n"}
+[4.352983] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[4.361869] (webots_ros2_importer) CommandEnded: {'returncode': 1}
+[4.363095] (webots_ros2_importer) JobEnded: {'identifier': 'webots_ros2_importer', 'rc': 1}
+[4.386998] (-) TimerEvent: {}
+[4.489183] (-) TimerEvent: {}
+[4.494482] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[4.495115] (webots_ros2_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.590718] (-) TimerEvent: {}
+[4.693512] (-) TimerEvent: {}
+[4.797102] (-) TimerEvent: {}
+[4.907939] (-) TimerEvent: {}
+[5.009375] (-) TimerEvent: {}
+[5.110453] (-) TimerEvent: {}
+[5.121094] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[5.211257] (-) TimerEvent: {}
+[5.281784] (webots_ros2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.311629] (-) TimerEvent: {}
+[5.335126] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[5.413362] (-) TimerEvent: {}
+[5.517989] (-) TimerEvent: {}
+[5.618965] (-) TimerEvent: {}
+[5.671499] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[5.724696] (-) TimerEvent: {}
+[5.739607] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[5.830382] (-) TimerEvent: {}
+[5.932113] (-) TimerEvent: {}
+[6.033630] (-) TimerEvent: {}
+[6.057004] (webots_ros2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.134135] (-) TimerEvent: {}
+[6.206329] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[6.241326] (-) TimerEvent: {}
+[6.264471] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[6.342557] (-) TimerEvent: {}
+[6.443565] (-) TimerEvent: {}
+[6.484544] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found vision_msgs: 2.0.0 (/opt/ros/foxy/share/vision_msgs/cmake)\n'}
+[6.545730] (-) TimerEvent: {}
+[6.703214] (-) TimerEvent: {}
+[7.032409] (-) TimerEvent: {}
+[7.134821] (-) TimerEvent: {}
+[7.190871] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[7.235481] (-) TimerEvent: {}
+[7.336145] (-) TimerEvent: {}
+[7.438760] (-) TimerEvent: {}
+[7.539467] (-) TimerEvent: {}
+[7.640198] (-) TimerEvent: {}
+[7.741245] (-) TimerEvent: {}
+[7.842523] (-) TimerEvent: {}
+[7.943938] (-) TimerEvent: {}
+[7.961202] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)\n'}
+[7.975151] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)\n'}
+[7.988530] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)\n'}
+[8.006041] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[8.044610] (-) TimerEvent: {}
+[8.145671] (-) TimerEvent: {}
+[8.286773] (-) TimerEvent: {}
+[8.388342] (-) TimerEvent: {}
+[8.556718] (-) TimerEvent: {}
+[8.690910] (-) TimerEvent: {}
+[8.792268] (-) TimerEvent: {}
+[8.849037] (webots_ros2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.896493] (-) TimerEvent: {}
+[8.999704] (-) TimerEvent: {}
+[9.102989] (-) TimerEvent: {}
+[9.208242] (-) TimerEvent: {}
+[9.281182] (webots_ros2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.309619] (-) TimerEvent: {}
+[9.371813] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[9.379779] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[9.420658] (-) TimerEvent: {}
+[9.464733] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[9.465172] (webots_ros2_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.465422] (webots_ros2_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[9.465610] (webots_ros2_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[9.521518] (-) TimerEvent: {}
+[9.527917] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[9.622276] (-) TimerEvent: {}
+[9.723805] (-) TimerEvent: {}
+[9.780306] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)\n'}
+[9.794028] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)\n'}
+[9.811206] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[9.824660] (-) TimerEvent: {}
+[9.913392] (webots_ros2_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.916706] (webots_ros2_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.925645] (-) TimerEvent: {}
+[9.933106] (webots_ros2_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.026229] (-) TimerEvent: {}
+[10.126925] (-) TimerEvent: {}
+[10.222962] (webots_ros2_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[10.227258] (-) TimerEvent: {}
+[10.230778] (webots_ros2_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/dafx/ros2_ws/build/webots_ros2_msgs\n'}
+[10.249270] (webots_ros2_msgs) JobEnded: {'identifier': 'webots_ros2_msgs', 'rc': 'SIGINT'}
+[10.260400] (my_robot_controller) JobSkipped: {'identifier': 'my_robot_controller'}
+[10.260469] (webots_ros2_driver) JobSkipped: {'identifier': 'webots_ros2_driver'}
+[10.260502] (webots_ros2_control) JobSkipped: {'identifier': 'webots_ros2_control'}
+[10.260528] (webots_ros2_mavic) JobSkipped: {'identifier': 'webots_ros2_mavic'}
+[10.260553] (webots_ros2_tesla) JobSkipped: {'identifier': 'webots_ros2_tesla'}
+[10.260577] (webots_ros2_epuck) JobSkipped: {'identifier': 'webots_ros2_epuck'}
+[10.260599] (webots_ros2_tiago) JobSkipped: {'identifier': 'webots_ros2_tiago'}
+[10.260622] (webots_ros2_turtlebot) JobSkipped: {'identifier': 'webots_ros2_turtlebot'}
+[10.260647] (webots_ros2_universal_robot) JobSkipped: {'identifier': 'webots_ros2_universal_robot'}
+[10.260670] (webots_ros2_tests) JobSkipped: {'identifier': 'webots_ros2_tests'}
+[10.260693] (webots_ros2) JobSkipped: {'identifier': 'webots_ros2'}
+[10.260721] (-) EventReactorShutdown: {}

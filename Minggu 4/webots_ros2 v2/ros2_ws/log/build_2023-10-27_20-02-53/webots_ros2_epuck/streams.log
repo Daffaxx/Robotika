@@ -1,0 +1,28 @@
+[3.026s] Invoking command in '/home/dafx/ros2_ws/src/webots_ros2/webots_ros2_epuck': PYTHONPATH=/home/dafx/ros2_ws/build/webots_ros2_epuck/prefix_override:/home/dafx/ros2_ws/install/webots_ros2_epuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_epuck build --build-base /home/dafx/ros2_ws/build/webots_ros2_epuck/build install --record /home/dafx/ros2_ws/build/webots_ros2_epuck/install.log --single-version-externally-managed
+[3.581s] running egg_info
+[3.582s] writing ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/PKG-INFO
+[3.587s] writing dependency_links to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/dependency_links.txt
+[3.588s] writing entry points to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/entry_points.txt
+[3.588s] writing requirements to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/requires.txt
+[3.588s] writing top-level names to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/top_level.txt
+[3.684s] reading manifest file '../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/SOURCES.txt'
+[3.692s] writing manifest file '../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/SOURCES.txt'
+[3.692s] running build
+[3.692s] running build_py
+[3.692s] copying webots_ros2_epuck/Sub.tof.py -> /home/dafx/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck
+[3.692s] running install
+[3.692s] running install_lib
+[3.694s] copying /home/dafx/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck/Sub.tof.py -> /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/python3.8/site-packages/webots_ros2_epuck
+[3.695s] byte-compiling /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/python3.8/site-packages/webots_ros2_epuck/Sub.tof.py to Sub.tof.cpython-38.pyc
+[3.699s] running install_data
+[3.701s] running install_egg_info
+[3.705s] removing '/home/dafx/ros2_ws/install/webots_ros2_epuck/lib/python3.8/site-packages/webots_ros2_epuck-2023.1.1-py3.8.egg-info' (and everything under it)
+[3.706s] Copying ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info to /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/python3.8/site-packages/webots_ros2_epuck-2023.1.1-py3.8.egg-info
+[3.708s] running install_scripts
+[3.746s] Installing Sub_tof script to /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck
+[3.755s] Installing drive_calibrator script to /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck
+[3.755s] Installing epuck_node script to /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck
+[3.755s] Installing publisher_vel script to /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck
+[3.755s] Installing simple_mapper script to /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck
+[3.756s] writing list of installed files to '/home/dafx/ros2_ws/build/webots_ros2_epuck/install.log'
+[3.798s] Invoked command in '/home/dafx/ros2_ws/src/webots_ros2/webots_ros2_epuck' returned '0': PYTHONPATH=/home/dafx/ros2_ws/build/webots_ros2_epuck/prefix_override:/home/dafx/ros2_ws/install/webots_ros2_epuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_epuck build --build-base /home/dafx/ros2_ws/build/webots_ros2_epuck/build install --record /home/dafx/ros2_ws/build/webots_ros2_epuck/install.log --single-version-externally-managed

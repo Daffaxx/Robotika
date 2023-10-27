@@ -1,0 +1,10 @@
+[console_scripts]
+Sub_tof = webots_ros2_epuck.Sub_tof:main
+drive_calibrator = webots_ros2_epuck.drive_calibrator:main
+epuck_node = webots_ros2_epuck.epuck_node:main
+publisher_vel = webots_ros2_epuck.publisher_vel:main
+simple_mapper = webots_ros2_epuck.simple_mapper:main
+
+[launch.frontend.launch_extension]
+launch_ros = launch_ros
+

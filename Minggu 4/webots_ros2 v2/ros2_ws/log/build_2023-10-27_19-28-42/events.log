@@ -1,0 +1,116 @@
+[0.000000] (-) TimerEvent: {}
+[0.000460] (-) JobUnselected: {'identifier': 'my_robot_controller'}
+[0.000539] (-) JobUnselected: {'identifier': 'webots_ros2'}
+[0.002187] (-) JobUnselected: {'identifier': 'webots_ros2_control'}
+[0.002240] (-) JobUnselected: {'identifier': 'webots_ros2_driver'}
+[0.002272] (-) JobUnselected: {'identifier': 'webots_ros2_importer'}
+[0.002301] (-) JobUnselected: {'identifier': 'webots_ros2_mavic'}
+[0.002327] (-) JobUnselected: {'identifier': 'webots_ros2_msgs'}
+[0.002352] (-) JobUnselected: {'identifier': 'webots_ros2_tesla'}
+[0.002397] (-) JobUnselected: {'identifier': 'webots_ros2_tests'}
+[0.002419] (-) JobUnselected: {'identifier': 'webots_ros2_tiago'}
+[0.002440] (-) JobUnselected: {'identifier': 'webots_ros2_turtlebot'}
+[0.002461] (-) JobUnselected: {'identifier': 'webots_ros2_universal_robot'}
+[0.002500] (webots_ros2_epuck) JobQueued: {'identifier': 'webots_ros2_epuck', 'dependencies': OrderedDict([('webots_ros2_importer', '/home/dafx/ros2_ws/install/webots_ros2_importer'), ('webots_ros2_msgs', '/home/dafx/ros2_ws/install/webots_ros2_msgs'), ('webots_ros2_driver', '/home/dafx/ros2_ws/install/webots_ros2_driver'), ('webots_ros2_control', '/home/dafx/ros2_ws/install/webots_ros2_control')])}
+[0.002570] (webots_ros2_epuck) JobStarted: {'identifier': 'webots_ros2_epuck'}
+[0.099341] (-) TimerEvent: {}
+[0.207855] (-) TimerEvent: {}
+[0.312831] (-) TimerEvent: {}
+[0.439628] (-) TimerEvent: {}
+[0.541281] (-) TimerEvent: {}
+[0.844104] (-) TimerEvent: {}
+[0.945846] (-) TimerEvent: {}
+[1.206827] (-) TimerEvent: {}
+[1.312726] (-) TimerEvent: {}
+[1.414802] (-) TimerEvent: {}
+[1.714988] (-) TimerEvent: {}
+[1.821763] (-) TimerEvent: {}
+[1.923180] (-) TimerEvent: {}
+[2.025009] (-) TimerEvent: {}
+[2.126912] (-) TimerEvent: {}
+[2.229021] (-) TimerEvent: {}
+[2.329974] (-) TimerEvent: {}
+[2.431346] (-) TimerEvent: {}
+[2.537575] (-) TimerEvent: {}
+[2.544620] (webots_ros2_epuck) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/webots_ros2_epuck', 'build', '--build-base', '/home/dafx/ros2_ws/build/webots_ros2_epuck/build', 'install', '--record', '/home/dafx/ros2_ws/build/webots_ros2_epuck/install.log', '--single-version-externally-managed'], 'cwd': '/home/dafx/ros2_ws/src/webots_ros2/webots_ros2_epuck', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dafx', 'LC_TIME': 'id_ID.UTF-8', 'SSH_AGENT_PID': '1673', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/dafx', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'id_ID.UTF-8', 'MANAGERPID': '1462', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dafx/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'dafx', 'JOURNAL_STREAM': '8:37168', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dafx', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/dafx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/dafx-VirtualBox:@/tmp/.ICE-unix/1719,unix/dafx-VirtualBox:/tmp/.ICE-unix/1719', 'INVOCATION_ID': '4b48377504174bd68b2029dd8a251794', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'id_ID.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f45e28cc_fe23_434d_ae71_9a324d70dec5', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'id_ID.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.78', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dafx/ros2_ws/install/my_robot_controller:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dafx/ros2_ws/build/webots_ros2_epuck', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dafx/ros2_ws/build/webots_ros2_epuck/prefix_override:/home/dafx/ros2_ws/install/webots_ros2_epuck/lib/python3.8/site-packages:/home/dafx/ros2_ws/build/my_robot_controller:/home/dafx/ros2_ws/install/my_robot_controller/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[2.894794] (-) TimerEvent: {}
+[2.982466] (webots_ros2_epuck) StdoutLine: {'line': b'running egg_info\n'}
+[2.984495] (webots_ros2_epuck) StdoutLine: {'line': b'creating ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info\n'}
+[2.990149] (webots_ros2_epuck) StdoutLine: {'line': b'writing ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/PKG-INFO\n'}
+[2.991124] (webots_ros2_epuck) StdoutLine: {'line': b'writing dependency_links to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/dependency_links.txt\n'}
+[2.991750] (webots_ros2_epuck) StdoutLine: {'line': b'writing entry points to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/entry_points.txt\n'}
+[2.993941] (webots_ros2_epuck) StdoutLine: {'line': b'writing requirements to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/requires.txt\n'}
+[2.994428] (webots_ros2_epuck) StdoutLine: {'line': b'writing top-level names to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/top_level.txt\n'}
+[2.994907] (-) TimerEvent: {}
+[3.021993] (webots_ros2_epuck) StdoutLine: {'line': b"writing manifest file '../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/SOURCES.txt'\n"}
+[3.086430] (webots_ros2_epuck) StdoutLine: {'line': b"reading manifest file '../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/SOURCES.txt'\n"}
+[3.088390] (webots_ros2_epuck) StdoutLine: {'line': b"writing manifest file '../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/SOURCES.txt'\n"}
+[3.089785] (webots_ros2_epuck) StdoutLine: {'line': b'running build\n'}
+[3.090192] (webots_ros2_epuck) StdoutLine: {'line': b'running build_py\n'}
+[3.091631] (webots_ros2_epuck) StdoutLine: {'line': b'creating /home/dafx/ros2_ws/build/webots_ros2_epuck/build\n'}
+[3.092241] (webots_ros2_epuck) StdoutLine: {'line': b'creating /home/dafx/ros2_ws/build/webots_ros2_epuck/build/lib\n'}
+[3.092394] (webots_ros2_epuck) StdoutLine: {'line': b'creating /home/dafx/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck\n'}
+[3.092506] (webots_ros2_epuck) StdoutLine: {'line': b'copying webots_ros2_epuck/drive_calibrator.py -> /home/dafx/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck\n'}
+[3.092605] (webots_ros2_epuck) StdoutLine: {'line': b'copying webots_ros2_epuck/epuck_node.py -> /home/dafx/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck\n'}
+[3.092710] (webots_ros2_epuck) StdoutLine: {'line': b'copying webots_ros2_epuck/__init__.py -> /home/dafx/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck\n'}
+[3.092815] (webots_ros2_epuck) StdoutLine: {'line': b'copying webots_ros2_epuck/simple_mapper.py -> /home/dafx/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck\n'}
+[3.092906] (webots_ros2_epuck) StdoutLine: {'line': b'copying webots_ros2_epuck/publisher_vel.py -> /home/dafx/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck\n'}
+[3.092995] (webots_ros2_epuck) StdoutLine: {'line': b'running install\n'}
+[3.093806] (webots_ros2_epuck) StdoutLine: {'line': b'running install_lib\n'}
+[3.097348] (webots_ros2_epuck) StdoutLine: {'line': b'creating /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/python3.8/site-packages/webots_ros2_epuck\n'}
+[3.102833] (-) TimerEvent: {}
+[3.103228] (webots_ros2_epuck) StdoutLine: {'line': b'copying /home/dafx/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck/drive_calibrator.py -> /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/python3.8/site-packages/webots_ros2_epuck\n'}
+[3.103396] (webots_ros2_epuck) StdoutLine: {'line': b'copying /home/dafx/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck/epuck_node.py -> /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/python3.8/site-packages/webots_ros2_epuck\n'}
+[3.103509] (webots_ros2_epuck) StdoutLine: {'line': b'copying /home/dafx/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck/__init__.py -> /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/python3.8/site-packages/webots_ros2_epuck\n'}
+[3.103610] (webots_ros2_epuck) StdoutLine: {'line': b'copying /home/dafx/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck/simple_mapper.py -> /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/python3.8/site-packages/webots_ros2_epuck\n'}
+[3.103706] (webots_ros2_epuck) StdoutLine: {'line': b'copying /home/dafx/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck/publisher_vel.py -> /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/python3.8/site-packages/webots_ros2_epuck\n'}
+[3.103802] (webots_ros2_epuck) StdoutLine: {'line': b'byte-compiling /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/python3.8/site-packages/webots_ros2_epuck/drive_calibrator.py to drive_calibrator.cpython-38.pyc\n'}
+[3.104438] (webots_ros2_epuck) StdoutLine: {'line': b'byte-compiling /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/python3.8/site-packages/webots_ros2_epuck/epuck_node.py to epuck_node.cpython-38.pyc\n'}
+[3.104982] (webots_ros2_epuck) StdoutLine: {'line': b'byte-compiling /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/python3.8/site-packages/webots_ros2_epuck/__init__.py to __init__.cpython-38.pyc\n'}
+[3.105103] (webots_ros2_epuck) StdoutLine: {'line': b'byte-compiling /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/python3.8/site-packages/webots_ros2_epuck/simple_mapper.py to simple_mapper.cpython-38.pyc\n'}
+[3.106706] (webots_ros2_epuck) StdoutLine: {'line': b'byte-compiling /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/python3.8/site-packages/webots_ros2_epuck/publisher_vel.py to publisher_vel.cpython-38.pyc\n'}
+[3.107670] (webots_ros2_epuck) StdoutLine: {'line': b'running install_data\n'}
+[3.109284] (webots_ros2_epuck) StdoutLine: {'line': b'creating /home/dafx/ros2_ws/install/webots_ros2_epuck/share/ament_index\n'}
+[3.110882] (webots_ros2_epuck) StdoutLine: {'line': b'creating /home/dafx/ros2_ws/install/webots_ros2_epuck/share/ament_index/resource_index\n'}
+[3.111049] (webots_ros2_epuck) StdoutLine: {'line': b'creating /home/dafx/ros2_ws/install/webots_ros2_epuck/share/ament_index/resource_index/packages\n'}
+[3.111154] (webots_ros2_epuck) StdoutLine: {'line': b'copying resource/webots_ros2_epuck -> /home/dafx/ros2_ws/install/webots_ros2_epuck/share/ament_index/resource_index/packages\n'}
+[3.112317] (webots_ros2_epuck) StdoutLine: {'line': b'creating /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/launch\n'}
+[3.112924] (webots_ros2_epuck) StdoutLine: {'line': b'copying launch/robot_launch.py -> /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/launch\n'}
+[3.114695] (webots_ros2_epuck) StdoutLine: {'line': b'copying launch/robot_tools_launch.py -> /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/launch\n'}
+[3.114851] (webots_ros2_epuck) StdoutLine: {'line': b'copying launch/rats_life_launch.py -> /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/launch\n'}
+[3.115937] (webots_ros2_epuck) StdoutLine: {'line': b'copying launch/rats_life_waypoints_launch.py -> /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/launch\n'}
+[3.116569] (webots_ros2_epuck) StdoutLine: {'line': b'creating /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds\n'}
+[3.117352] (webots_ros2_epuck) StdoutLine: {'line': b'copying worlds/epuck_world.wbt -> /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds\n'}
+[3.117473] (webots_ros2_epuck) StdoutLine: {'line': b'copying worlds/.epuck_world.wbproj -> /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds\n'}
+[3.118258] (webots_ros2_epuck) StdoutLine: {'line': b'copying worlds/rats_life_benchmark.wbt -> /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds\n'}
+[3.119577] (webots_ros2_epuck) StdoutLine: {'line': b'copying worlds/.rats_life_benchmark.wbproj -> /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds\n'}
+[3.119715] (webots_ros2_epuck) StdoutLine: {'line': b'creating /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/protos\n'}
+[3.119820] (webots_ros2_epuck) StdoutLine: {'line': b'copying protos/LegoTallInterval.proto -> /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/protos\n'}
+[3.120229] (webots_ros2_epuck) StdoutLine: {'line': b'copying protos/LegoTallWall.proto -> /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/protos\n'}
+[3.122343] (webots_ros2_epuck) StdoutLine: {'line': b'creating /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource\n'}
+[3.122563] (webots_ros2_epuck) StdoutLine: {'line': b'copying resource/all.rviz -> /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource\n'}
+[3.124629] (webots_ros2_epuck) StdoutLine: {'line': b'copying resource/nav2_params.yaml -> /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource\n'}
+[3.126245] (webots_ros2_epuck) StdoutLine: {'line': b'copying resource/nav2_params_iron.yaml -> /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource\n'}
+[3.128167] (webots_ros2_epuck) StdoutLine: {'line': b'copying resource/map_rats_life.pgm -> /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource\n'}
+[3.131126] (webots_ros2_epuck) StdoutLine: {'line': b'copying resource/map_rats_life.yaml -> /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource\n'}
+[3.133327] (webots_ros2_epuck) StdoutLine: {'line': b'copying resource/nav2_rats_life_waypoints.yaml -> /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource\n'}
+[3.134939] (webots_ros2_epuck) StdoutLine: {'line': b'copying resource/epuck_world_map.pgm -> /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource\n'}
+[3.139992] (webots_ros2_epuck) StdoutLine: {'line': b'copying resource/epuck_world_map.yaml -> /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource\n'}
+[3.140472] (webots_ros2_epuck) StdoutLine: {'line': b'copying resource/epuck_webots.urdf -> /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource\n'}
+[3.141973] (webots_ros2_epuck) StdoutLine: {'line': b'copying resource/ros2_control.yml -> /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource\n'}
+[3.143667] (webots_ros2_epuck) StdoutLine: {'line': b'copying package.xml -> /home/dafx/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck\n'}
+[3.144116] (webots_ros2_epuck) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.146966] (webots_ros2_epuck) StdoutLine: {'line': b'Copying ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info to /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/python3.8/site-packages/webots_ros2_epuck-2023.1.1-py3.8.egg-info\n'}
+[3.148592] (webots_ros2_epuck) StdoutLine: {'line': b'running install_scripts\n'}
+[3.182860] (webots_ros2_epuck) StdoutLine: {'line': b'Installing drive_calibrator script to /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck\n'}
+[3.183812] (webots_ros2_epuck) StdoutLine: {'line': b'Installing epuck_node script to /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck\n'}
+[3.184542] (webots_ros2_epuck) StdoutLine: {'line': b'Installing publisher_vel script to /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck\n'}
+[3.184671] (webots_ros2_epuck) StdoutLine: {'line': b'Installing simple_mapper script to /home/dafx/ros2_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck\n'}
+[3.185277] (webots_ros2_epuck) StdoutLine: {'line': b"writing list of installed files to '/home/dafx/ros2_ws/build/webots_ros2_epuck/install.log'\n"}
+[3.203345] (-) TimerEvent: {}
+[3.239794] (webots_ros2_epuck) CommandEnded: {'returncode': 0}
+[3.304081] (-) TimerEvent: {}
+[3.419241] (-) TimerEvent: {}
+[3.577247] (webots_ros2_epuck) JobEnded: {'identifier': 'webots_ros2_epuck', 'rc': 0}
+[3.578797] (-) TimerEvent: {}
+[3.579049] (-) EventReactorShutdown: {}
